@@ -1,0 +1,54 @@
+
+/Users/macuser/dev/wikimedia/style.css
+p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.signture{
+  text-align: right;
+}
+
+.intro{
+  padding: 20px;
+  margin: auto;
+  width: 70%;
+}
+.container{
+width: 70%;
+margin: auto;
+
+}
+
+.imgs{
+/*width: 100%;*/
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 20px;
+
+}
+.imgs a {
+  flex-basis: 15vw;
+}
+.imgs a img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+
+footer{
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: center;
+
+}
+
+footer > p{
+  font-size: 13px;
+}
+
+hr{
+  width: 1000px;
+}
